@@ -12,6 +12,10 @@ public class Test2
 
             // overwrite an existing variable value
             i = 20;
+            final int num ;
+            num = 20;
+            num = 30;
+
 
      
        }
