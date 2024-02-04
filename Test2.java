@@ -6,6 +6,13 @@ public class Test2
             float f =12.35f;
             double d =1232.45657;
             String s = "Hello this is a string";
+            // declaring variable 1st then assign its value
+            int myNum;
+            myNum = 10;
+
+            // overwrite an existing variable value
+            i = 20;
+
      
        }
 }
