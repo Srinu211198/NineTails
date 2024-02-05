@@ -14,7 +14,8 @@ public class Test2
             i = 20;
             final int num ;
             num = 20;
-            num = 30;
+
+            
 
 
      
