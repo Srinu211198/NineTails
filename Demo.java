@@ -1,21 +1,28 @@
-public class Demo {
-    public static void main(String[] args){
-        int num1 = 45;
-        int num2 = 5;
+class Calci {
+    int a;
+    public int add(int n1, int n2){
 
-        // Object declaration
-        Calculate cal = new Calculate();
+        int r  = n1+ n2;
 
-        int result = cal.add(num1,num2);
-
-        System.out.println(result);
+        return r;
     }
+
+    
 }
 
-class Calculate{
-    public int add(int n1,int n2){
+public class Demo {
+    public static void main(String[] args) {
+        int num1 =2;
+        int num2 =5;
 
-        int r = n1+n2;
-        return r;    
+        Calci b = new Calci();
+
+        int result = b.add(num1,num2);
+
+        System.out.println(result);
+
+    //     int result = num1 + num2;
+    //     System.out.println(result);
     }
+    
 }
